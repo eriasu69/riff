@@ -1,0 +1,17 @@
+.panel {
+  flex: 1 1 280px;
+  max-width: 320px;
+  min-width: 0;
+  border-left: 1px solid var(--border);
+  background: var(--panel);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.dials {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}

@@ -1,0 +1,50 @@
+:root {
+  /* surfaces */
+  --ground: #0b0c0f;
+  --panel: #0e1013;
+  --surface: #16181d;
+  --raised: #1e2128;
+  --card: #121418;
+  --chip: #1b1e24;
+  --grid-dot: #1f2228;
+
+  /* lines */
+  --border: #22252c;
+  --border-strong: #2c3038;
+
+  /* text */
+  --text: #ecedef;
+  --text-2: #c3c7ce;
+  --body: #d5d8dd;
+  --muted: #9ba1ac;
+  --faint: #7d8490;
+
+  /* accent */
+  --accent: #c8f135;
+  --accent-hover: #e4ff8a;
+  --on-accent: #0b0c0f;
+  --accent-tint-bg: #1a2008;
+  --accent-tint-border: #3a4a12;
+  --accent-tint-text: #ddf58c;
+  --chip-at: #2a3312;
+
+  /* status */
+  --ok: #8fe388;
+  --warn: #ffc46b;
+  --del: #ff8f8f;
+
+  /* avatars */
+  --avatar-1: #ff8a5c;
+  --avatar-2: #7cc4ff;
+
+  /* shape */
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 14px;
+  --touch: 44px;
+
+  /* type */
+  --font-sans: 'Geist Sans', 'Geist', system-ui, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+}

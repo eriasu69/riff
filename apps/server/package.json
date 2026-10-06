@@ -1,0 +1,28 @@
+{
+  "name": "@riff/server",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@riff/shared": "workspace:*",
+    "hono": "*",
+    "@hono/node-server": "*",
+    "ws": "*",
+    "http-proxy": "*",
+    "get-port": "*",
+    "tree-kill": "*",
+    "@anthropic-ai/claude-agent-sdk": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "tsx": "*",
+    "@types/node": "^24.0.0",
+    "@types/ws": "*",
+    "@types/http-proxy": "*"
+  }
+}

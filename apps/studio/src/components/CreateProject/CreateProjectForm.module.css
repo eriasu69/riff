@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  font-size: 13px;
+  color: var(--text-2);
+}
+
+.input {
+  min-height: var(--touch);
+  padding: 0 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 15px;
+}
+
+.error {
+  margin: 0;
+  font-size: 13px;
+  color: var(--del);
+}

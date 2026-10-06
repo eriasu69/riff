@@ -1,0 +1,29 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.value {
+  font-family: var(--font-mono);
+  color: var(--muted);
+}
+
+.range {
+  width: 100%;
+  height: var(--touch);
+  margin: 0;
+}
+
+.ends {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--faint);
+}

@@ -1,0 +1,37 @@
+.shell {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--ground);
+  color: var(--text);
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  min-height: 0;
+}
+
+.message {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+  color: var(--muted);
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .shell {
+    height: 100dvh;
+    overflow: hidden;
+  }
+
+  .body > * {
+    overflow: auto;
+  }
+}

@@ -1,0 +1,21 @@
+.row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.added {
+  color: var(--ok);
+}
+
+.removed {
+  color: var(--del);
+}
+
+.action {
+  padding: 0 10px;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 400;
+}

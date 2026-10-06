@@ -1,0 +1,50 @@
+.chip {
+  display: inline-block;
+}
+
+.branch {
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--chip);
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.mention,
+.file,
+.diff {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+.mention {
+  padding: 3px 8px;
+  background: var(--chip-at);
+  color: var(--accent-tint-text);
+}
+
+.file {
+  padding: 3px 8px;
+  background: var(--raised);
+  color: var(--text-2);
+}
+
+.diff {
+  padding: 4px 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.pill,
+.pillDashed {
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  font-size: 12px;
+}
+
+.pillDashed {
+  border-style: dashed;
+  color: var(--muted);
+}

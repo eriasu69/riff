@@ -1,0 +1,47 @@
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
+  min-height: 0;
+  overflow: auto;
+  background: var(--card);
+  color: var(--text);
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--del);
+}
+
+.message {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-2);
+}
+
+.log {
+  margin: 0;
+  flex: 1;
+  min-height: 80px;
+  overflow: auto;
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--ground);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

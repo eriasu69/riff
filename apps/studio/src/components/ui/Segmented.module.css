@@ -1,0 +1,51 @@
+.group {
+  display: flex;
+  gap: 2px;
+  padding: 3px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.accent {
+  border-radius: var(--radius-md);
+}
+
+.neutral {
+  border-radius: 9px;
+}
+
+.segment {
+  min-height: var(--touch);
+  padding: 0 16px;
+  border: 0;
+  cursor: pointer;
+  background: transparent;
+  color: var(--text-2);
+  font-weight: 500;
+}
+
+.accent .segment {
+  border-radius: 7px;
+}
+
+.neutral .segment {
+  padding: 0 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.accent .segment[aria-pressed='true'] {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.neutral .segment[aria-pressed='true'] {
+  background: var(--border-strong);
+  color: var(--text);
+}
+
+.segment[aria-pressed='false']:hover {
+  background: var(--raised);
+}

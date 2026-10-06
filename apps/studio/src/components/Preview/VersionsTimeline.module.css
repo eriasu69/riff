@@ -1,0 +1,68 @@
+.timeline {
+  padding: 14px 20px 18px;
+  border-top: 1px solid var(--border);
+  background: var(--panel);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.saved {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+}
+
+.item {
+  flex: 1 0 104px;
+}
+
+.version {
+  width: 100%;
+  min-height: 52px;
+  text-align: left;
+  padding: 8px 10px;
+  border-radius: 9px;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.version[aria-current='true'] {
+  border-color: var(--accent);
+  background: var(--accent-tint-bg);
+}
+
+.tag {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--faint);
+}
+
+.version[aria-current='true'] .tag {
+  color: var(--accent);
+}
+
+.name {
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
